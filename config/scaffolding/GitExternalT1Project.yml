@@ -3,6 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: CustomTest
+  version: "1.0"
   gitServerName: aadiacc
   gitUrl: https://github.com/aadi-tripathi
   gitUsername: aadi-tripathi
@@ -19,6 +20,8 @@ services:
     version: "1.0"
   - name: CustomTest
     version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
